@@ -1,0 +1,47 @@
+
+body{
+  overflow: hidden;
+}
+
+.photos{
+  width: fit-content;
+}
+
+.pic1:hover{
+cursor: pointer;
+display: ruby-text;
+
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  font-size: 7;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  border: 1px solid black;
+  
+  
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index:1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.wholepage{
+  -ms-overflow-style: none;
+  -webkit-scrollbar { display: none; }
+}
+
+.search-input:click{
+border: none;
+text-decoration: none;
+}
